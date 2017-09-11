@@ -1,0 +1,105 @@
+h1
+{
+  background: rgba(58, 134, 189, 0.78);
+  color: white;
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 35px;
+  font-weight: normal;
+  font-family: 'Satisfy', cursive;
+}
+body
+{
+  font-family: 'Heebo', sans-serif;
+  background: url("http://www.wallpapermaiden.com/wallpaper/6901/download/3840x2160/anime-room-kitchen-inside-the-building-kotatsu-scenic-sunshine.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+ul
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Heebo', sans-serif;
+}
+
+#container
+{
+  width: 360px;
+  margin: 100px auto;
+  background: rgba(240, 240, 240,0.8);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.fa-plus
+{
+  float: right;
+  margin: 10px 3px;
+}
+
+.cross
+{
+  -webkit-transform: rotate(45deg);
+  transition: all 0.2s ease-in-out;
+}
+
+.plus{
+  -webkit-transform: rotate(0deg);
+  transition: all 0.2s ease-in-out;
+}
+
+input
+{
+  font-size: 18px;
+  background: rgba(255, 255, 255,0.6);
+  width: 100%;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
+  color: rgba(58, 134, 189,0.9);
+  border: 3px solid rgba(0,0,0,0);
+}
+
+input:focus
+{
+  background: rgb(255, 255, 255);
+  border: 3px solid rgba(58, 134, 189,0.78);
+  outline: none;
+}
+
+.selected
+{
+  text-decoration: line-through;
+  color: gray;
+}
+
+li
+{
+  height: 40px;
+  line-height: 40px;
+}
+
+span .fa-minus
+{
+  background-color: #e74c3c;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 20px;
+  text-align: center;
+  color: white;
+  width: 0;
+  display: inline-block;
+  transition: 0.2s linear;
+  opacity: 0;
+}
+
+li:hover span .fa-minus
+{
+  width: 40px;
+  display: inline-block;
+  opacity: 1.0;
+}
+
+li:nth-child(2n)
+{
+  background: rgba(255, 255, 255,0.6);
+}

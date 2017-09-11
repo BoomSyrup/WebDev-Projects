@@ -1,0 +1,20 @@
+i.bomb
+{
+  font-size: 1.75em;
+}
+
+#bomby
+{
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.container.main
+{
+  margin-top: 7em;
+}
+
+.inline
+{
+  display: inline;
+}
